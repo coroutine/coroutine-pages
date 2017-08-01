@@ -7,14 +7,14 @@ var gulp    = require('gulp'),
 var pathMaps = {
   pugify: {
     src:      'src/pug/pages/**/*.pug',
-    dest:     'www/',
+    dest:     'docs/',
     watch:    'src/pug/**/*.pug',
     basedir:  'src/pug/'
   },
 
   sassify: {
     src:    'src/sass/index.scss',
-    dest:   'www/css/',
+    dest:   'docs/css/',
     watch:  'src/sass/**/*.scss'
   }
 };
