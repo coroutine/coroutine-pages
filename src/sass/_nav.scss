@@ -1,0 +1,17 @@
+.navbar {
+  margin:    $spacing-unit * 4 0;
+
+  .navbar-brand {
+    font-family:    'Comfortaa', cursive;
+    text-transform: lowercase;
+    font-weight:    300;
+    letter-spacing: 1px;
+  }
+
+  .nav-item {
+    font-family:    'Didact Gothic', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-left:    1px solid #eeeeee;
+  }
+}

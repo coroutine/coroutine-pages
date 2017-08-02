@@ -1,0 +1,6 @@
+mixin card
+  .card(class!=attributes.class)
+    .card-block
+      h4.card-title!= attributes.title
+      p.card-text
+        block

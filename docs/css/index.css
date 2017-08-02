@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Didact+Gothic|Comfortaa:300|Droid+Serif");
+.card {
+  border-radius: 0px; }
+  .card.card-borderless {
+    border: 0px; }
+
+body {
+  font-family: 'Droid Serif', serif;
+  border-top: 2px solid #7B52AB; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Didact Gothic', sans-serif; }
+
+.navbar {
+  margin: 1rem 0; }
+  .navbar .navbar-brand {
+    font-family: 'Comfortaa', cursive;
+    text-transform: lowercase;
+    font-weight: 300;
+    letter-spacing: 1px; }
+  .navbar .nav-item {
+    font-family: 'Didact Gothic', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-left: 1px solid #eeeeee; }
+
+.section {
+  padding: 1rem 0; }
+  .section.section-md {
+    padding: 2rem 0; }
+  .section.section-lg {
+    padding: 4rem 0; }
+  .section.section-light {
+    color: #292b2c; }
+  .section.section-dark {
+    color: #ffffff;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(45deg, #F3005C 0%, #33b6e9 100%); }

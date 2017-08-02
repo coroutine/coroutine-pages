@@ -1,3 +1,27 @@
 extends /layouts/application
+include /mixins/card
 
 block content
+  section.section.section-lg
+    .container-fluid
+      .row
+        .col-md-12
+          h1
+            | Let's build something great together.
+  
+  section.section.section-lg
+    .container-fluid
+      .row
+        .col-md-12
+          .card-deck
+            +card(title='Product Design' class='card-borderless')
+              | We can help you design your shit.
+            
+            +card(title='Prototyping' class='card-borderless')
+              | Before you begin building, let's prototype some shit.
+              
+            +card(title='Product Development' class='card-borderless')
+              | We design and build shit for you.
+            
+            +card(title='Data Analytics' class='card-borderless')
+              | We can help you understand your shit.
